@@ -65,3 +65,30 @@ while x < 5:
     else:
         print("FAIL")
         x += 1
+
+#=======================
+# Control statements in loops
+for a in range(1,6):
+    if a == 4:
+        break
+    print(a)
+
+"""
+Output is
+1
+2
+3
+
+"""
+#=================
+for i in range(1,6):
+    if i == 4:
+        continue
+    print(i)
+"""
+Output is
+1
+2
+3
+5
+"""
